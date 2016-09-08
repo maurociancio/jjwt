@@ -8,7 +8,7 @@ JJWT aims to be the easiest to use and understand library for creating and verif
 JJWT is a Java implementation based on the [JWT](https://tools.ietf.org/html/rfc7519), [JWS](https://tools.ietf.org/html/rfc7515), [JWE](https://tools.ietf.org/html/rfc7516), [JWK](https://tools.ietf.org/html/rfc7517) and [JWA](https://tools.ietf.org/html/rfc7518) RFC specifications.
 
 The library was created by [Stormpath's](http://www.stormpath.com) CTO, [Les Hazlewood](https://github.com/lhazlewood)
-and is now maintained by a [community](https://github.com/jwtk/jjwt/graphs/contributors) of contributors.
+and is now maintained by a [community](https://github.com/jwtk/cjjwt/graphs/contributors) of contributors.
 
 We've also added some convenience extensions that are not part of the specification, such as JWT compression and claim enforcement.
 
@@ -178,7 +178,7 @@ try {
     
     JJWT automatically detects that compression was used by examining the header and will automatically decompress when parsing. No extra coding is needed on your part for decompression.
 
-* **Require Claims.** When parsing, you can specify that certain calims *must* be present and set to a certain value.
+* **Require Claims.** When parsing, you can specify that certain claims *must* be present and set to a certain value.
 
     ```java
     try {
